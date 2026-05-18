@@ -34,7 +34,7 @@ body{
     background-repeat:no-repeat ;
     background-image: cover;
     border-radius: 20px;
-    background-image: url("../12_05/gente_lavora.jpg");
+    background-image: url("./img/gente_lavora.jpg");
 
 }
 .cnt_img2{
@@ -44,7 +44,7 @@ body{
     background-repeat:no-repeat ;
     background-image: cover;
     border-radius: 20px;
-    background-image: url("../12_05/gente_lavora3.jpg");
+    background-image: url("./img/gente_lavora2.jpg");
 
 }
 .cnt_img3{
@@ -54,7 +54,7 @@ body{
     background-repeat:no-repeat ;
     background-image: cover;
     border-radius: 20px;
-    background-image: url("../12_05/gente_lavora2.jpg");
+    background-image: url("./img/gente_lavora3.jpg");
 
 }
 
