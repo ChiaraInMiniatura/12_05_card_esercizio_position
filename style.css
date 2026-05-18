@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat", sans-serif;
+}
+
+.container{
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.ctn{
+    width: 300px; /* larghezza */
+    height: 270px;
+    background-color: rgb(75, 138, 240);
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+
+.img_card_1{
+    width: 100x;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+.my_btn{
+    background-color: blueviolet;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid violet;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 7px;
+
+}
+
+.my_btn:hover{
+    background-color: rgb(147, 83, 147);
+}
+
+.ctn a{
+    text-decoration: none;
+    color: rgb(69, 11, 123);
+    font-size: 15;
+}

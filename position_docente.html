@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Docente</title>
+    
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        body{
+
+            height: 2200px;
+        }
+
+        .box{
+
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            border: 1px solid black;
+            z-index: 1002;
+
+        }
+
+
+        .box1 {
+
+            position: relative;
+            width: 200px;
+            height: 200px;
+            background: red;
+            border: 1px solid black;
+            z-index: 1000;
+        }
+
+
+        .box2 {
+
+            position: absolute; /*fluttua nella pagina, ed ha bisogno di posizionamenti*/
+            width: 200px;
+            height: 200px;
+            background: blue;
+            border: 1 px solid black;
+            left: 100px;
+            top: 50px;
+            z-index: 1001;
+
+        }
+
+        .box_fixed {
+
+            position: fixed;
+            width: 2000px;
+            height: 100px;
+            background: coral;
+            border: 1 px solid black;
+
+        }
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <div class="box_fixed">
+
+    </div>
+
+    <div class="box"></div>
+
+    <div class="box1"></div>
+
+    <div class="box2"></div>
+
+    
+
+
+
+</body>
+</html>

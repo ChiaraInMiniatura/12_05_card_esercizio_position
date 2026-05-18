@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box_blu{
+            background-color: blue;
+            height: 150px;
+            width: 150px;
+            z-index: 500;
+            position:absolute;
+            top: 0;
+        }
+        .box_rosso{
+            background-color: red;
+            height: 600px;
+            width: 700px;
+            position: absolute;
+            
+        }
+        .box_verde{
+            background-color: green;
+            height: 150px;
+            width: 150px;
+            position: absolute;
+            left: 700px;
+            top: 450px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box_blu"></div>
+    <div class="box_rosso"></div>
+    <div class="box_verde"></div>
+    
+</body>
+</html>
