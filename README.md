@@ -6,4 +6,4 @@ Primi esercizi in html e css.
 - html
 - css
 
-[screen pagina](screenpagina.png)
+[screen pagina](./img/screenpagina.pngscreenpagina.png)
